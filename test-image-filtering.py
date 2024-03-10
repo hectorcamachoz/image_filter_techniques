@@ -93,7 +93,7 @@ def run_pipeline(args:argparse.Namespace)->None:
     elif filter == "gaussian":
         img_filtered = gaussian_filter(img)
         title = "Gaussian Filter Image"
-        print("gaussian ")
+        
 
     cvl.visualise_image(img, "Original Image")
     cvl.visualise_image(img_filtered, title)

@@ -8,7 +8,7 @@ import sys
 from numpy.typing import NDArray
 
 
-def read_image(filename:str)->NDArray:
+def read_image(filename:str)->cv2:
     """
     Load an image from the specified filename using OpenCV.
 
